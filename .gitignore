@@ -1,0 +1,27 @@
+# Node.js dependencies
+node_modules/
+
+# Logs & debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Build files & cache
+/build/
+/dist/
+.cache/
+
+# Editor & system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Testing & coverage
+/coverage/

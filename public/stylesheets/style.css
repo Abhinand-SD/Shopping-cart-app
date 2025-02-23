@@ -1,0 +1,9 @@
+.row{
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  /*padding-left: 51px;*/
+  margin-top: 51px;
+  
+}

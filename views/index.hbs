@@ -1,0 +1,32 @@
+
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                {{#each products}}
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top"
+                            src="{{this.image}}"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">{{this.name}} </h5>
+                            <p class="card-text"> {{this.description}} </p>
+                        </div>
+                        <!--<ul class="list-group list-group-flush">
+    <li class="list-group-item">128GB, Dual sim, Deep Purple</li>
+    <li class="list-group-item"></li>
+    <li class="list-group-item"></li>
+  </ul> -->
+                        <div class="card-body">
+                            <a href="#" class="card-link">Buy</a>
+                            <a href="#" class="card-link">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+                {{/each}}
+
+            </div>
+
+        </div>
+    </section>
